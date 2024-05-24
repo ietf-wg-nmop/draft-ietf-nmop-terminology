@@ -352,22 +352,22 @@ Table of Contents
    indirectly to Causes.  An Alarm may be raised as the result of a
    Problem.
 
-                    Alarm
-                     ^
-                      |
-                      |       ----> Cause
-                      |      |
-                  Problem---------> Symptom
-                      ^
-                      |
-                      |
-                      |
-                                           Relevant State
-                      ^
-                      |
-                      |
-                      |
-                    State
+                           Alarm
+                            ^
+                             |
+                             |       ----> Cause
+                             |      |
+                         Problem---------> Symptom
+                             ^
+                             |
+                             |
+                             |
+                        Relevant State
+                             ^
+                             |
+                             |
+                             |
+                           State
 
                     Figure 4: States and Dependent Terms
 
@@ -418,7 +418,7 @@ Table of Contents
           |
           |---------------------> State
           |
-          |   -------
+          |        -------
           |------>| Count |-------------------------> Relevant Value
           |        -------          |                       ^
           |           |             |                       |
