@@ -1482,16 +1482,16 @@ some meaningfully short time frame.<a href="#section-2-4.4.1" class="pilcrow">¶
 <figure id="figure-1">
         <div class="alignCenter art-text artwork" id="section-3-2.1">
 <pre>
-                                   Characteristics
-                                          ^
-                                          |
-                                       Resource
-                                          ^
-                                          |
-                              Controlled External System
-                                          ^
-                                          |
-                                   External System
+     Characteristics
+            ^
+            |
+         Resource
+            ^
+            |
+Controlled External System
+            ^
+            |
+     External System
 </pre>
 </div>
 <figcaption><a href="#figure-1" class="selfRef">Figure 1</a>:
@@ -1513,26 +1513,26 @@ some meaningfully short time frame.<a href="#section-2-4.4.1" class="pilcrow">¶
    time as shown in <a href="#_figure-6" class="auto internal xref">Figure 6</a>.<a href="#section-3-5" class="pilcrow">¶</a></p>
 <span id="name-characteristics-and-changes"></span><div id="_figure-2">
 <figure id="figure-2">
-        <div class="alignLeft art-text artwork" id="section-3-6.1">
+        <div class="alignCenter art-text artwork" id="section-3-6.1">
 <pre>
-              Event                State                  Value
+     Event                State                  Value
 
-                ^                    ^                      ^
-         Detect :             Detect :               Detect :
-                :                    :                      :
+       ^                    ^                      ^
+Detect :             Detect :               Detect :
+       :                    :                      :
 
-           ^        ^          ^     ^     ^                   /\
-           :        :          :     :     :                  /  \
-           :        :          :     :     :             /\  /    \
-            __    __               _____                /  \/
-           |        |             |     |            /\/
-         __|        |__       ____|     |____       /
+   ^        ^          ^     ^     ^                   /\
+   :        :          :     :     :                  /  \
+   :        :          :     :     :             /\  /    \
+    __    __               _____                /  \/
+   |        |             |     |            /\/
+ __|        |__       ____|     |____       /
 
-        Change at a time     Change over time      Change over time
+Change at a time     Change over time      Change over time
 </pre>
 </div>
 <figcaption><a href="#figure-2" class="selfRef">Figure 2</a>:
-<a href="#name-characteristics-and-changes" class="selfRef">Characteristics and Changes” artwork-align="center</a>
+<a href="#name-characteristics-and-changes" class="selfRef">Characteristics and Changes</a>
         </figcaption></figure>
 </div>
 <p id="section-3-7"><a href="#_figure-3" class="auto internal xref">Figure 3</a> shows the workflow progress for Events.  As noted above, an
@@ -1548,26 +1548,26 @@ some meaningfully short time frame.<a href="#section-2-4.4.1" class="pilcrow">¶
 <figure id="figure-3">
         <div class="alignCenter art-text artwork" id="section-3-8.1">
 <pre>
-                              Alert- - - - &gt; Alarm
-                                ^
-                                |
-                                |     -----&gt; Cause
-                                |    |
-                                |----------&gt; Problem
-                                |
-                                |
-                            Incident
-                                ^
-                                |
-                                |
-                                |
-                           Occurrence
-                                ^
-                                |
-                                |----------&gt; State
-                                |
-                                |
-                              Event
+   Alert- - - - &gt; Alarm
+     ^
+     |
+     |     -----&gt; Cause
+     |    |
+     |----------&gt; Problem
+     |
+     |
+ Incident
+     ^
+     |
+     |
+     |
+Occurrence
+     ^
+     |
+     |----------&gt; State
+     |
+     |
+   Event
 </pre>
 </div>
 <figcaption><a href="#figure-3" class="selfRef">Figure 3</a>:
@@ -1588,22 +1588,22 @@ some meaningfully short time frame.<a href="#section-2-4.4.1" class="pilcrow">¶
 <figure id="figure-4">
         <div class="alignCenter art-text artwork" id="section-3-11.1">
 <pre>
-                              Alarm
-                               ^
-                                |
-                                |       ----&gt; Cause
-                                |      |
-                            Problem---------&gt; Symptom
-                                ^
-                                |
-                                |
-                                |
+   Alarm
+    ^
+     |
+     |       ----&gt; Cause
+     |      |
+ Problem---------&gt; Symptom
+     ^
+     |
+     |
+     |
                           Relevant State
-                                ^
-                                |
-                                |
-                                |
-                              State
+     ^
+     |
+     |
+     |
+   State
 </pre>
 </div>
 <figcaption><a href="#figure-4" class="selfRef">Figure 4</a>:
@@ -1620,25 +1620,25 @@ some meaningfully short time frame.<a href="#section-2-4.4.1" class="pilcrow">¶
 <figure id="figure-5">
         <div class="alignCenter art-text artwork" id="section-3-14.1">
 <pre>
-                             ------------
-                            | Root Cause |
-                             ------------
-                                  ^                 ---------
-                                  |  ------------- |         |
-                                  | |  ----------&gt; | Symptom |
-                                  | | |            |         |
-                                  | | |             ---------
-                                  | v |                 ^
-                                ---------               |
-                     ---------&gt;|  Cause  |&lt;----------   |
-                    |           ---------            |  |
-                    |             ^   |              |  |
-                    |             |   |              |  |
-                    |              ---               |  |
-                    |                                |  |
-                  ----------                      ---------
-                 | Incident |------------------&gt; | Problem |
-                  ----------                      ---------
+            ------------
+           | Root Cause |
+            ------------
+                 ^                 ---------
+                 |  ------------- |         |
+                 | |  ----------&gt; | Symptom |
+                 | | |            |         |
+                 | | |             ---------
+                 | v |                 ^
+               ---------               |
+    ---------&gt;|  Cause  |&lt;----------   |
+   |           ---------            |  |
+   |             ^   |              |  |
+   |             |   |              |  |
+   |              ---               |  |
+   |                                |  |
+ ----------                      ---------
+| Incident |------------------&gt; | Problem |
+ ----------                      ---------
 </pre>
 </div>
 <figcaption><a href="#figure-5" class="selfRef">Figure 5</a>:
@@ -1659,31 +1659,31 @@ some meaningfully short time frame.<a href="#section-2-4.4.1" class="pilcrow">¶
 <figure id="figure-6">
         <div class="alignCenter art-text artwork" id="section-3-17.1">
 <pre>
-     Occurrence
-          ^
-          |
-          |---------------------&gt; State
-          |
-          |        -------
-          |------&gt;| Count |-------------------------&gt; Relevant Value
-          |        -------          |                       ^
-          |           |             |                       |
-          |           |             |                       |
-          |           |             v                       |
-          |           |        -----------           ----------------
-        Event         |       | Evaluated |         |                |
-          ^           |       | over time |&lt;--------| Analogue Value |
-          |           v        -----------          |                |
-          |      -----------        |               |                |
-          |     | Threshold |       |               |                |
-          |&lt;----|  Process  |&lt;------                |                |
-          |     |           |&lt;----------------------|                |
-          |      -----------                         ----------------
-          |                                                 ^
-          |                                                 |
-          | Detect                                   Detect |
-          |                                                 |
-     Change at a Time                                Change over Time
+Occurrence
+     ^
+     |
+     |---------------------&gt; State
+     |
+     |   -------
+     |------&gt;| Count |-------------------------&gt; Relevant Value
+     |        -------          |                       ^
+     |           |             |                       |
+     |           |             |                       |
+     |           |             v                       |
+     |           |        -----------           ----------------
+   Event         |       | Evaluated |         |                |
+     ^           |       | over time |&lt;--------| Analogue Value |
+     |           v        -----------          |                |
+     |      -----------        |               |                |
+     |     | Threshold |       |               |                |
+     |&lt;----|  Process  |&lt;------                |                |
+     |     |           |&lt;----------------------|                |
+     |      -----------                         ----------------
+     |                                                 ^
+     |                                                 |
+     | Detect                                   Detect |
+     |                                                 |
+Change at a Time                                Change over Time
 </pre>
 </div>
 <figcaption><a href="#figure-6" class="selfRef">Figure 6</a>:
