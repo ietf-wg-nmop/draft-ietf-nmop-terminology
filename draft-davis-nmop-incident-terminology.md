@@ -25,6 +25,7 @@ author:
  -
     fullname: Adrian Farrel
     organization: Old Dog Consulting
+    role: editor    
     email: adrian@olddog.co.uk
  -
     fullname: Thomas Graf
