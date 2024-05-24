@@ -368,7 +368,7 @@ Occurrence
      |
      |
      |
-                          Relevant State
+Relevant State
      ^
      |
      |
@@ -429,7 +429,7 @@ Occurrence
      |
      |---------------------> State
      |
-     |   -------
+     |        -------
      |------>| Count |-------------------------> Relevant Value
      |        -------          |                       ^
      |           |             |                       |
