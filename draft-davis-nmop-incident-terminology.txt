@@ -4,7 +4,7 @@
 
 Network Management Operations                              N. Davis, Ed.
 Internet-Draft                                                     Ciena
-Intended status: Informational                                 A. Farrel
+Intended status: Informational                            A. Farrel, Ed.
 Expires: 25 November 2024                             Old Dog Consulting
                                                                  T. Graf
                                                                 Swisscom
@@ -261,19 +261,18 @@ Table of Contents
    shown in Figure 1.  A Controlled External System is comprised of
    Resources, and Resources have Characteristics.
 
-                                      Characteristics
-                                             ^
-                                             |
-                                          Resource
-                                             ^
-                                             |
-                                 Controlled External System
-                                             ^
-                                             |
-                                      External System
+                                            Characteristics
+                                                   ^
+                                                   |
+                                                Resource
+                                                   ^
+                                                   |
+                                       Controlled External System
+                                                   ^
+                                                   |
+                                            External System
 
-       Figure 1: Relationship Between Elements of a System” artwork-
-                               align="center
+            Figure 1: Relationship Between Elements of a System
 
    The Value of a Characteristic of a Resource is expected to change
    over time.  Specific changes in value may be noticed ay a specific
@@ -318,28 +317,28 @@ Table of Contents
    generated, may be evidence of a Problem and could directly indicate a
    Cause.
 
-                                 Alert- - - - > Alarm
-                                   ^
-                                   |
-                                   |     -----> Cause
-                                   |    |
-                                   |----------> Problem
-                                   |
-                                   |
-                               Incident
-                                   ^
-                                   |
-                                   |
-                                   |
-                              Occurrence
-                                   ^
-                                   |
-                                   |----------> State
-                                   |
-                                   |
-                                 Event
+                                         Alert- - - - > Alarm
+                                           ^
+                                           |
+                                           |     -----> Cause
+                                           |    |
+                                           |----------> Problem
+                                           |
+                                           |
+                                       Incident
+                                           ^
+                                           |
+                                           |
+                                           |
+                                      Occurrence
+                                           ^
+                                           |
+                                           |----------> State
+                                           |
+                                           |
+                                         Event
 
-        Figure 3: Events and Dependent Terms” artwork-align="center
+                    Figure 3: Events and Dependent Terms
 
    Parallel to the workflow for Events, Figure 4 shows the workflow
    progress for States.  As shown in Figure 2, Change noted at a
@@ -353,24 +352,24 @@ Table of Contents
    indirectly to Causes.  An Alarm may be raised as the result of a
    Problem.
 
-                                 Alarm
-                                  ^
-                                   |
-                                   |       ----> Cause
-                                   |      |
-                               Problem---------> Symptom
-                                   ^
-                                   |
-                                   |
-                                   |
-                             Relevant State
-                                   ^
-                                   |
-                                   |
-                                   |
-                                 State
+                                         Alarm
+                                          ^
+                                           |
+                                           |       ----> Cause
+                                           |      |
+                                       Problem---------> Symptom
+                                           ^
+                                           |
+                                           |
+                                           |
+                                     Relevant State
+                                           ^
+                                           |
+                                           |
+                                           |
+                                         State
 
-        Figure 4: States and Dependent Terms” artwork-align="center
+                    Figure 4: States and Dependent Terms
 
    Figure 5 shows how Incidens and Problems may be consolidated to
    determine Causes and the underlying Root Cause.
@@ -380,27 +379,27 @@ Table of Contents
    also be considered as a Symptom.  The determination of Causes and the
    Root Cause can consider multiple inputs.
 
-                                ------------
-                               | Root Cause |
-                                ------------
-                                     ^                 ---------
-                                     |  ------------- |         |
-                                     | |  ----------> | Symptom |
-                                     | | |            |         |
-                                     | | |             ---------
-                                     | v |                 ^
-                                   ---------               |
-                        --------->|  Cause  |<----------   |
-                       |           ---------            |  |
-                       |             ^   |              |  |
-                       |             |   |              |  |
-                       |              ---               |  |
-                       |                                |  |
-                     ----------                      ---------
-                    | Incident |------------------> | Problem |
-                     ----------                      ---------
+                                   ------------
+                                  | Root Cause |
+                                   ------------
+                                        ^                 ---------
+                                        |  ------------- |         |
+                                        | |  ----------> | Symptom |
+                                        | | |            |         |
+                                        | | |             ---------
+                                        | v |                 ^
+                                      ---------               |
+                           --------->|  Cause  |<----------   |
+                          |           ---------            |  |
+                          |             ^   |              |  |
+                          |             |   |              |  |
+                          |              ---               |  |
+                          |                                |  |
+                        ----------                      ---------
+                       | Incident |------------------> | Problem |
+                        ----------                      ---------
 
-   Figure 5: Consolidation of Symptoms and Causes” artwork-align="center
+               Figure 5: Consolidation of Symptoms and Causes
 
    The final figure in this section (Figure 6) shows how thresholds are
    important in the consideration of Analogue Values and Events.
@@ -440,7 +439,7 @@ Table of Contents
             |                                                 |
        Change at a Time                                Change over Time
 
-     Figure 6: Counts, Thresholds, and Values” artwork-align="center
+                 Figure 6: Counts, Thresholds, and Values
 
 4.  Security Considerations
 
@@ -495,7 +494,7 @@ Authors' Addresses
    Email: ndavis@ciena.com
 
 
-   Adrian Farrel
+   Adrian Farrel (editor)
    Old Dog Consulting
    Email: adrian@olddog.co.uk
 
