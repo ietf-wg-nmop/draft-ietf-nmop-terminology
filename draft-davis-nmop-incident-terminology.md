@@ -271,7 +271,7 @@ informative:
                                           |
                                    External System
 ~~~~
-{: #figure-1 title="Relationship Between Elements of a System” artwork-align="center"}
+{: #figure-1 title="Relationship Between Elements of a System" artwork-align="center"}
 
 
    The Value of a Characteristic of a Resource is expected to change
@@ -341,7 +341,7 @@ informative:
                                 |
                               Event
 ~~~~
-{: #figure-3 title="Events and Dependent Terms” artwork-align="center"}
+{: #figure-3 title="Events and Dependent Terms" artwork-align="center"}
 
 
    Parallel to the workflow for Events, {{figure-4}} shows the workflow
@@ -375,7 +375,7 @@ informative:
                                 |
                               State
 ~~~~
-{: #figure-4 title="States and Dependent Terms” artwork-align="center"}
+{: #figure-4 title="States and Dependent Terms" artwork-align="center"}
 
    {{figure-5}} shows how Incidens and Problems may be consolidated to
    determine Causes and the underlying Root Cause.
@@ -407,7 +407,7 @@ informative:
                  | Incident |------------------> | Problem |
                   ----------                      ---------
 ~~~~
-{: #figure-5 title=" Consolidation of Symptoms and Causes” artwork-align="center"}
+{: #figure-5 title=" Consolidation of Symptoms and Causes" artwork-align="center"}
 
 
    The final figure in this section ({{figure-6}}) shows how thresholds are
@@ -450,7 +450,7 @@ informative:
           |                                                 |
      Change at a Time                                Change over Time
 ~~~~
-{: #figure-6 title="Counts, Thresholds, and Values” artwork-align="center"}
+{: #figure-6 title="Counts, Thresholds, and Values" artwork-align="center"}
 
 
 
