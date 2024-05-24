@@ -260,16 +260,16 @@ informative:
    Resources, and Resources have Characteristics.
 
 ~~~~
-                                   Characteristics
-                                          ^
-                                          |
-                                       Resource
-                                          ^
-                                          |
-                              Controlled External System
-                                          ^
-                                          |
-                                   External System
+     Characteristics
+            ^
+            |
+         Resource
+            ^
+            |
+Controlled External System
+            ^
+            |
+     External System
 ~~~~
 {: #figure-1 title="Relationship Between Elements of a System" artwork-align="center"}
 
@@ -291,22 +291,22 @@ informative:
    time as shown in {{figure-6}}.
 
 ~~~~
-              Event                State                  Value
+     Event                State                  Value
 
-                ^                    ^                      ^
-         Detect :             Detect :               Detect :
-                :                    :                      :
+       ^                    ^                      ^
+Detect :             Detect :               Detect :
+       :                    :                      :
 
-           ^        ^          ^     ^     ^                   /\
-           :        :          :     :     :                  /  \
-           :        :          :     :     :             /\  /    \
-            __    __               _____                /  \/
-           |        |             |     |            /\/
-         __|        |__       ____|     |____       /
+   ^        ^          ^     ^     ^                   /\
+   :        :          :     :     :                  /  \
+   :        :          :     :     :             /\  /    \
+    __    __               _____                /  \/
+   |        |             |     |            /\/
+ __|        |__       ____|     |____       /
 
-        Change at a time     Change over time      Change over time
+Change at a time     Change over time      Change over time
 ~~~~
-{: #figure-2 title="Characteristics and Changes” artwork-align="center"}
+{: #figure-2 title="Characteristics and Changes" artwork-align="center"}
 
    {{figure-3}} shows the workflow progress for Events.  As noted above, an
    Event is a Change in the Value of a Characteristic at a time.  The
@@ -320,26 +320,26 @@ informative:
 
 
 ~~~~
-                              Alert- - - - > Alarm
-                                ^
-                                |
-                                |     -----> Cause
-                                |    |
-                                |----------> Problem
-                                |
-                                |
-                            Incident
-                                ^
-                                |
-                                |
-                                |
-                           Occurrence
-                                ^
-                                |
-                                |----------> State
-                                |
-                                |
-                              Event
+   Alert- - - - > Alarm
+     ^
+     |
+     |     -----> Cause
+     |    |
+     |----------> Problem
+     |
+     |
+ Incident
+     ^
+     |
+     |
+     |
+Occurrence
+     ^
+     |
+     |----------> State
+     |
+     |
+   Event
 ~~~~
 {: #figure-3 title="Events and Dependent Terms" artwork-align="center"}
 
@@ -358,22 +358,22 @@ informative:
 
 
 ~~~~
-                              Alarm
-                               ^
-                                |
-                                |       ----> Cause
-                                |      |
-                            Problem---------> Symptom
-                                ^
-                                |
-                                |
-                                |
+   Alarm
+    ^
+     |
+     |       ----> Cause
+     |      |
+ Problem---------> Symptom
+     ^
+     |
+     |
+     |
                           Relevant State
-                                ^
-                                |
-                                |
-                                |
-                              State
+     ^
+     |
+     |
+     |
+   State
 ~~~~
 {: #figure-4 title="States and Dependent Terms" artwork-align="center"}
 
@@ -387,25 +387,25 @@ informative:
 
 
 ~~~~
-                             ------------
-                            | Root Cause |
-                             ------------
-                                  ^                 ---------
-                                  |  ------------- |         |
-                                  | |  ----------> | Symptom |
-                                  | | |            |         |
-                                  | | |             ---------
-                                  | v |                 ^
-                                ---------               |
-                     --------->|  Cause  |<----------   |
-                    |           ---------            |  |
-                    |             ^   |              |  |
-                    |             |   |              |  |
-                    |              ---               |  |
-                    |                                |  |
-                  ----------                      ---------
-                 | Incident |------------------> | Problem |
-                  ----------                      ---------
+            ------------
+           | Root Cause |
+            ------------
+                 ^                 ---------
+                 |  ------------- |         |
+                 | |  ----------> | Symptom |
+                 | | |            |         |
+                 | | |             ---------
+                 | v |                 ^
+               ---------               |
+    --------->|  Cause  |<----------   |
+   |           ---------            |  |
+   |             ^   |              |  |
+   |             |   |              |  |
+   |              ---               |  |
+   |                                |  |
+ ----------                      ---------
+| Incident |------------------> | Problem |
+ ----------                      ---------
 ~~~~
 {: #figure-5 title=" Consolidation of Symptoms and Causes" artwork-align="center"}
 
@@ -424,39 +424,33 @@ informative:
 
 
 ~~~~
-     Occurrence
-          ^
-          |
-          |---------------------> State
-          |
-          |        -------
-          |------>| Count |-------------------------> Relevant Value
-          |        -------          |                       ^
-          |           |             |                       |
-          |           |             |                       |
-          |           |             v                       |
-          |           |        -----------           ----------------
-        Event         |       | Evaluated |         |                |
-          ^           |       | over time |<--------| Analogue Value |
-          |           v        -----------          |                |
-          |      -----------        |               |                |
-          |     | Threshold |       |               |                |
-          |<----|  Process  |<------                |                |
-          |     |           |<----------------------|                |
-          |      -----------                         ----------------
-          |                                                 ^
-          |                                                 |
-          | Detect                                   Detect |
-          |                                                 |
-     Change at a Time                                Change over Time
+Occurrence
+     ^
+     |
+     |---------------------> State
+     |
+     |   -------
+     |------>| Count |-------------------------> Relevant Value
+     |        -------          |                       ^
+     |           |             |                       |
+     |           |             |                       |
+     |           |             v                       |
+     |           |        -----------           ----------------
+   Event         |       | Evaluated |         |                |
+     ^           |       | over time |<--------| Analogue Value |
+     |           v        -----------          |                |
+     |      -----------        |               |                |
+     |     | Threshold |       |               |                |
+     |<----|  Process  |<------                |                |
+     |     |           |<----------------------|                |
+     |      -----------                         ----------------
+     |                                                 ^
+     |                                                 |
+     | Detect                                   Detect |
+     |                                                 |
+Change at a Time                                Change over Time
 ~~~~
 {: #figure-6 title="Counts, Thresholds, and Values" artwork-align="center"}
-
-
-
-
-
-
 
 #  Security Considerations
 
