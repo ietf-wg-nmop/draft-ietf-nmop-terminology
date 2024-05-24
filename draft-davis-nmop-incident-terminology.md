@@ -9,8 +9,8 @@ number:
 date:
 consensus: true
 v: 3
-area: OPS
-workgroup: NMOP Working Group
+area: "Operations and Management"
+workgroup: "Network Management Operations"
 keyword:
  - dddd
  - ddddd
