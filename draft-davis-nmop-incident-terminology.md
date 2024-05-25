@@ -21,23 +21,33 @@ author:
     fullname: Nigel Davis
     organization: Ciena
     role: editor
+    country: United Kingdom
     email: ndavis@ciena.com
  -
     fullname: Adrian Farrel
     organization: Old Dog Consulting
     role: editor
+    country: United Kingdom
     email: adrian@olddog.co.uk
  -
     fullname: Thomas Graf
     organization: Swisscom
+    street: Binzring 17
+    city: Zurich
+    code: CH-8045
+    country: Switzerland
     email: thomas.graf@swisscom.com
  -
     fullname: Qin Wu
     organization: Huawei
+    street: 101 Software Avenue, Yuhua District
+    city: Nanjing
+    code: Jiangsu, 210012
+    country: China
     email: bill.wu@huawei.com
  -
     fullname: Chaode Yu
-    organization: Huawei
+    organization: Huawei Technologies
     email: yuchaode@huawei.com
 
 normative:
@@ -291,11 +301,11 @@ Controlled External System
    time as shown in {{figure-6}}.
 
 ~~~~
-     Event                State                  Value
+      Event                State                  Value
 
-       ^                    ^                      ^
-Detect :             Detect :               Detect :
-       :                    :                      :
+        ^                    ^                      ^
+ Detect :             Detect :               Detect :
+        :                    :                      :
 
    ^        ^          ^     ^     ^                   /\
    :        :          :     :     :                  /  \
