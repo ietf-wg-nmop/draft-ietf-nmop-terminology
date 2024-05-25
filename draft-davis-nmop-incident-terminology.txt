@@ -5,13 +5,14 @@
 Network Management Operations                              N. Davis, Ed.
 Internet-Draft                                                     Ciena
 Intended status: Informational                            A. Farrel, Ed.
-Expires: 25 November 2024                             Old Dog Consulting
+Expires: 26 November 2024                             Old Dog Consulting
                                                                  T. Graf
                                                                 Swisscom
                                                                    Q. Wu
-                                                                   C. Yu
                                                                   Huawei
-                                                             24 May 2024
+                                                                   C. Yu
+                                                     Huawei Technologies
+                                                             25 May 2024
 
 
        Some Key Terms for Network Incident and Problem Management
@@ -55,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 November 2024.
+   This Internet-Draft will expire on 26 November 2024.
 
 Copyright Notice
 
@@ -290,11 +291,11 @@ Table of Contents
    Values that may be deemed Relevant Values, or may be evaluated over
    time as shown in Figure 6.
 
-             Event                State                  Value
+              Event                State                  Value
 
-               ^                    ^                      ^
-        Detect :             Detect :               Detect :
-               :                    :                      :
+                ^                    ^                      ^
+         Detect :             Detect :               Detect :
+                :                    :                      :
 
            ^        ^          ^     ^     ^                   /\
            :        :          :     :     :                  /  \
@@ -491,24 +492,33 @@ Authors' Addresses
 
    Nigel Davis (editor)
    Ciena
+   United Kingdom
    Email: ndavis@ciena.com
 
 
    Adrian Farrel (editor)
    Old Dog Consulting
+   United Kingdom
    Email: adrian@olddog.co.uk
 
 
    Thomas Graf
    Swisscom
+   Binzring 17
+   CH-8045 Zurich
+   Switzerland
    Email: thomas.graf@swisscom.com
 
 
    Qin Wu
    Huawei
+   101 Software Avenue, Yuhua District
+   Nanjing
+   Jiangsu, 210012
+   China
    Email: bill.wu@huawei.com
 
 
    Chaode Yu
-   Huawei
+   Huawei Technologies
    Email: yuchaode@huawei.com
