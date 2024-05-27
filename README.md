@@ -2,7 +2,7 @@
 
 This is the working area for the NMOP WG Internet-Draft, "Some Key Terms for Network Incident and Problem Management".
 
-* [Editor's Copy](https://ietf-wg-nmop.github.io/draft-ietf-nmop-incident-terminology/#go.draft-ietf-nmop-terminology.html)
+* [Editor's Copy](https://ietf-wg-nmop.github.io/draft-ietf-nmop-terminology/#go.draft-ietf-nmop-terminology.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-nmop-terminology)
 * [Individual Draft](https://datatracker.ietf.org/doc/html/draft-ietf-nmop-terminology)
 * [Compare Editor's Copy to Individual Draft](https://ietf-wg-nmop.github.io/draft-ietf-nmop-terminology/#go.draft-ietf-nmop-terminology.diff)
