@@ -3,7 +3,7 @@ title: "Some Key Terms for Network Incident and Problem Management"
 abbrev: "Incident Terminology"
 category: info
 
-docname: draft-ietf-nmop-incident-terminology-latest
+docname: draft-ietf-nmop-terminology-latest
 submissiontype: IETF
 number:
 date:
