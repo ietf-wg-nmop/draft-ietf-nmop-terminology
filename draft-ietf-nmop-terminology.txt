@@ -16,7 +16,7 @@ Expires: 28 November 2024                             Old Dog Consulting
 
 
        Some Key Terms for Network Incident and Problem Management
-              draft-ietf-nmop-incident-terminology-latest
+                   draft-ietf-nmop-terminology-latest
 
 Abstract
 
