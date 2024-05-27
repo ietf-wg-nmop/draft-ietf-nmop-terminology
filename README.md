@@ -1,11 +1,11 @@
 # Some Key Terms for Network Incident and Problem Management
 
-This is the working area for the individual Internet-Draft, "Some Key Terms for Network Incident and Problem Management".
+This is the working area for the NMOP WG Internet-Draft, "Some Key Terms for Network Incident and Problem Management".
 
-* [Editor's Copy](https://ietf-wg-nmop.github.io/draft-davis-nmop-incident-terminology/#go.draft-davis-nmop-incident-terminology.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-davis-nmop-incident-terminology)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-davis-nmop-incident-terminology)
-* [Compare Editor's Copy to Individual Draft](https://ietf-wg-nmop.github.io/draft-davis-nmop-incident-terminology/#go.draft-davis-nmop-incident-terminology.diff)
+* [Editor's Copy](https://ietf-wg-nmop.github.io/draft-ietf-nmop-incident-terminology/#go.draft-ietf-nmop-incident-terminology.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-nmop-incident-terminology)
+* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-ietf-nmop-incident-terminology)
+* [Compare Editor's Copy to Individual Draft](https://ietf-wg-nmop.github.io/draft-ietf-nmop-incident-terminology/#go.draft-ietf-nmop-incident-terminology.diff)
 
 
 ## Contributing
