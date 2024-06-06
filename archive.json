@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-04T01:02:29.057486+00:00",
+  "timestamp": "2024-06-06T01:01:58.853249+00:00",
   "repo": "ietf-wg-nmop/draft-ietf-nmop-terminology",
   "labels": [
     {
@@ -79,6 +79,55 @@
       "color": "B9B881"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOMAH4bs6LPmY_",
+      "title": "CFA Comments from Beno\u00eet",
+      "url": "https://github.com/ietf-wg-nmop/draft-ietf-nmop-terminology/issues/1",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "https://mailarchive.ietf.org/arch/msg/nmop/NQuo1YOw3iUFM7iFBkj8TjFZmpo/",
+      "createdAt": "2024-06-05T14:44:58Z",
+      "updatedAt": "2024-06-05T14:44:58Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 2,
+      "id": "I_kwDOMAH4bs6LPm3A",
+      "title": "CFA Comments from Med",
+      "url": "https://github.com/ietf-wg-nmop/draft-ietf-nmop-terminology/issues/2",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "https://mailarchive.ietf.org/arch/msg/nmop/rqqa7GgU0HmlZfCVCnmIgtxF4lI/",
+      "createdAt": "2024-06-05T14:45:45Z",
+      "updatedAt": "2024-06-05T14:45:45Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 3,
+      "id": "I_kwDOMAH4bs6LPnZP",
+      "title": "CFA Comments from Watson",
+      "url": "https://github.com/ietf-wg-nmop/draft-ietf-nmop-terminology/issues/3",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "https://mailarchive.ietf.org/arch/msg/nmop/fu08_kTL1n1-f2vuAbegRCyp_zc/",
+      "createdAt": "2024-06-05T14:46:41Z",
+      "updatedAt": "2024-06-05T14:46:41Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
