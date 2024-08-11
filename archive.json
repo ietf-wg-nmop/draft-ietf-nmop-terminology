@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-08-08T01:06:26.736591+00:00",
+  "timestamp": "2024-08-11T01:12:02.761366+00:00",
   "repo": "ietf-wg-nmop/draft-ietf-nmop-terminology",
   "labels": [
     {
@@ -85,15 +85,15 @@
       "id": "I_kwDOMAH4bs6LPmY_",
       "title": "CFA Comments from Beno\u00eet",
       "url": "https://github.com/ietf-wg-nmop/draft-ietf-nmop-terminology/issues/1",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "boucadair",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "https://mailarchive.ietf.org/arch/msg/nmop/NQuo1YOw3iUFM7iFBkj8TjFZmpo/",
       "createdAt": "2024-06-05T14:44:58Z",
-      "updatedAt": "2024-06-05T14:44:58Z",
-      "closedAt": null,
+      "updatedAt": "2024-08-08T13:59:00Z",
+      "closedAt": "2024-08-08T13:59:00Z",
       "comments": []
     },
     {
